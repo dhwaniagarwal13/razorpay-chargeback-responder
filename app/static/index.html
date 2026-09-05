@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Chargeback Evidence Responder</title>
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Chargeback Evidence Responder</h1>
+    <nav>
+      <button id="tab-disputes" class="tab-btn active">Disputes</button>
+      <button id="tab-metrics" class="tab-btn">Metrics</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="view-disputes" class="view active">
+      <div class="layout">
+        <div id="dispute-list" class="panel list-panel">
+          <h2>Test-set disputes</h2>
+          <ul id="disputes-ul"></ul>
+        </div>
+        <div id="dispute-detail" class="panel detail-panel">
+          <p class="placeholder">Select a dispute on the left to run the decision pipeline.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-metrics" class="view">
+      <h2>Evaluation metrics (test set)</h2>
+      <div id="metrics-content"><p class="placeholder">Loading metrics...</p></div>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

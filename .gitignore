@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+eval/report.json
+eval/pr_curve.png
+audit_log.jsonl
+*.pkl
+.DS_Store
+.claude-flow/

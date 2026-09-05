@@ -1,0 +1,4873 @@
+[
+  {
+    "dispute_id": "D0347",
+    "order_id": "O00347",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 3320,
+    "customer_tenure_days": 529,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0216",
+    "order_id": "O00216",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 3730,
+    "customer_tenure_days": 1102,
+    "prior_chargeback_count": 2,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0058",
+    "order_id": "O00058",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1540,
+    "customer_tenure_days": 788,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0174",
+    "order_id": "O00174",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 2350,
+    "customer_tenure_days": 536,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0217",
+    "order_id": "O00217",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 3650,
+    "customer_tenure_days": 1373,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0243",
+    "order_id": "O00243",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 6150,
+    "customer_tenure_days": 501,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": true,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0293",
+    "order_id": "O00293",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 3680,
+    "customer_tenure_days": 1357,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0267",
+    "order_id": "O00267",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 3260,
+    "customer_tenure_days": 489,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0032",
+    "order_id": "O00032",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1810,
+    "customer_tenure_days": 429,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0109",
+    "order_id": "O00109",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 3790,
+    "customer_tenure_days": 956,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0238",
+    "order_id": "O00238",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 3390,
+    "customer_tenure_days": 1296,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0052",
+    "order_id": "O00052",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1830,
+    "customer_tenure_days": 449,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0393",
+    "order_id": "O00393",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 1140,
+    "customer_tenure_days": 1070,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0080",
+    "order_id": "O00080",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 6110,
+    "customer_tenure_days": 493,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": true,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0065",
+    "order_id": "O00065",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 3520,
+    "customer_tenure_days": 601,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0223",
+    "order_id": "O00223",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1470,
+    "customer_tenure_days": 1365,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0324",
+    "order_id": "O00324",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 2890,
+    "customer_tenure_days": 247,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0239",
+    "order_id": "O00239",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 2250,
+    "customer_tenure_days": 191,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": true,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0110",
+    "order_id": "O00110",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 2800,
+    "customer_tenure_days": 110,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": true,
+      "cancellation_policy_shown": true,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": true,
+      "advance_notice_given": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0056",
+    "order_id": "O00056",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 930,
+    "customer_tenure_days": 327,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0294",
+    "order_id": "O00294",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 3180,
+    "customer_tenure_days": 1316,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": false,
+      "three_ds_authenticated": true,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0177",
+    "order_id": "O00177",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 4730,
+    "customer_tenure_days": 229,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0016",
+    "order_id": "O00016",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 2930,
+    "customer_tenure_days": 689,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": true,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0067",
+    "order_id": "O00067",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 1780,
+    "customer_tenure_days": 1478,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": false,
+      "three_ds_authenticated": true,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": true,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0100",
+    "order_id": "O00100",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 1130,
+    "customer_tenure_days": 676,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": true,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0184",
+    "order_id": "O00184",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 1010,
+    "customer_tenure_days": 430,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": true,
+      "device_binding_match": true,
+      "mobile_number_match_registered": true,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0269",
+    "order_id": "O00269",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 10730,
+    "customer_tenure_days": 480,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": true,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0185",
+    "order_id": "O00185",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 3610,
+    "customer_tenure_days": 1365,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0287",
+    "order_id": "O00287",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 2840,
+    "customer_tenure_days": 59,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0188",
+    "order_id": "O00188",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 2230,
+    "customer_tenure_days": 316,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": true,
+      "device_binding_match": false,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0348",
+    "order_id": "O00348",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 5620,
+    "customer_tenure_days": 1220,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0229",
+    "order_id": "O00229",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 3160,
+    "customer_tenure_days": 616,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0041",
+    "order_id": "O00041",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 5850,
+    "customer_tenure_days": 65,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0246",
+    "order_id": "O00246",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1860,
+    "customer_tenure_days": 1289,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0104",
+    "order_id": "O00104",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1680,
+    "customer_tenure_days": 1169,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0173",
+    "order_id": "O00173",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 1150,
+    "customer_tenure_days": 267,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": true,
+      "three_ds_authenticated": true,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0053",
+    "order_id": "O00053",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 4170,
+    "customer_tenure_days": 283,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": true,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0235",
+    "order_id": "O00235",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 3150,
+    "customer_tenure_days": 1046,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": true,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0153",
+    "order_id": "O00153",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 550,
+    "customer_tenure_days": 436,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": true,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": true,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0349",
+    "order_id": "O00349",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 730,
+    "customer_tenure_days": 565,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0260",
+    "order_id": "O00260",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 1980,
+    "customer_tenure_days": 873,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": true,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0095",
+    "order_id": "O00095",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 2440,
+    "customer_tenure_days": 43,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": false,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": true,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0146",
+    "order_id": "O00146",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 830,
+    "customer_tenure_days": 643,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0284",
+    "order_id": "O00284",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 4290,
+    "customer_tenure_days": 1118,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0178",
+    "order_id": "O00178",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 2000,
+    "customer_tenure_days": 1415,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": true,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": true,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0072",
+    "order_id": "O00072",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 1710,
+    "customer_tenure_days": 1039,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": true,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0214",
+    "order_id": "O00214",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 1590,
+    "customer_tenure_days": 90,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0230",
+    "order_id": "O00230",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 4420,
+    "customer_tenure_days": 0,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0022",
+    "order_id": "O00022",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 2150,
+    "customer_tenure_days": 600,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": true,
+      "three_ds_authenticated": true,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0272",
+    "order_id": "O00272",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 3160,
+    "customer_tenure_days": 473,
+    "prior_chargeback_count": 2,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": false,
+      "three_ds_authenticated": true,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0306",
+    "order_id": "O00306",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 2680,
+    "customer_tenure_days": 63,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": true,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": true,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0101",
+    "order_id": "O00101",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 1080,
+    "customer_tenure_days": 487,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": false,
+      "three_ds_authenticated": true,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": true,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0133",
+    "order_id": "O00133",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 1800,
+    "customer_tenure_days": 642,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": false,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0333",
+    "order_id": "O00333",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 6910,
+    "customer_tenure_days": 891,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0251",
+    "order_id": "O00251",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 970,
+    "customer_tenure_days": 218,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": true,
+      "device_binding_match": true,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0244",
+    "order_id": "O00244",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 5190,
+    "customer_tenure_days": 1251,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": false,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0144",
+    "order_id": "O00144",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 5150,
+    "customer_tenure_days": 647,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0034",
+    "order_id": "O00034",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 14540,
+    "customer_tenure_days": 1327,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": true,
+      "device_binding_match": false,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0359",
+    "order_id": "O00359",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1350,
+    "customer_tenure_days": 755,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": true,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0319",
+    "order_id": "O00319",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1900,
+    "customer_tenure_days": 1464,
+    "prior_chargeback_count": 2,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0280",
+    "order_id": "O00280",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 790,
+    "customer_tenure_days": 1179,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": false,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": true,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0091",
+    "order_id": "O00091",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 2510,
+    "customer_tenure_days": 1375,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0009",
+    "order_id": "O00009",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 2670,
+    "customer_tenure_days": 1330,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0182",
+    "order_id": "O00182",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1960,
+    "customer_tenure_days": 85,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0023",
+    "order_id": "O00023",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 1360,
+    "customer_tenure_days": 1266,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": false,
+      "cancellation_policy_shown": true,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": true,
+      "advance_notice_given": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0314",
+    "order_id": "O00314",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1330,
+    "customer_tenure_days": 1471,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0345",
+    "order_id": "O00345",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1750,
+    "customer_tenure_days": 665,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0094",
+    "order_id": "O00094",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 3950,
+    "customer_tenure_days": 460,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": false,
+      "three_ds_authenticated": true,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": true,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0265",
+    "order_id": "O00265",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 1260,
+    "customer_tenure_days": 567,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": true,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": true,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0385",
+    "order_id": "O00385",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 890,
+    "customer_tenure_days": 133,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": true,
+      "three_ds_authenticated": true,
+      "device_fingerprint_match_prior_orders": true,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0315",
+    "order_id": "O00315",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 10260,
+    "customer_tenure_days": 335,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": false,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": true,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0005",
+    "order_id": "O00005",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 3960,
+    "customer_tenure_days": 864,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": false,
+      "three_ds_authenticated": true,
+      "device_fingerprint_match_prior_orders": true,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0322",
+    "order_id": "O00322",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 5710,
+    "customer_tenure_days": 1427,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0180",
+    "order_id": "O00180",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 2470,
+    "customer_tenure_days": 756,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": true,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": true,
+      "ip_billing_geo_match": true,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0006",
+    "order_id": "O00006",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 3230,
+    "customer_tenure_days": 191,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": false,
+      "three_ds_authenticated": true,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0013",
+    "order_id": "O00013",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 2000,
+    "customer_tenure_days": 326,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": true,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": true,
+      "advance_notice_given": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0303",
+    "order_id": "O00303",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 4080,
+    "customer_tenure_days": 716,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": false,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0108",
+    "order_id": "O00108",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1630,
+    "customer_tenure_days": 725,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0025",
+    "order_id": "O00025",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1350,
+    "customer_tenure_days": 1442,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0029",
+    "order_id": "O00029",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 1670,
+    "customer_tenure_days": 778,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": false,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": true,
+      "usage_after_alleged_cancellation_date": true,
+      "advance_notice_given": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0358",
+    "order_id": "O00358",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1180,
+    "customer_tenure_days": 627,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0288",
+    "order_id": "O00288",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 3090,
+    "customer_tenure_days": 1369,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0030",
+    "order_id": "O00030",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 1970,
+    "customer_tenure_days": 1301,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": true,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0376",
+    "order_id": "O00376",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 8830,
+    "customer_tenure_days": 111,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": true,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": true,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0354",
+    "order_id": "O00354",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 2950,
+    "customer_tenure_days": 1322,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": true,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0078",
+    "order_id": "O00078",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 500,
+    "customer_tenure_days": 743,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": true,
+      "three_ds_authenticated": true,
+      "device_fingerprint_match_prior_orders": true,
+      "ip_billing_geo_match": true,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0007",
+    "order_id": "O00007",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 2770,
+    "customer_tenure_days": 1034,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0258",
+    "order_id": "O00258",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1830,
+    "customer_tenure_days": 906,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0334",
+    "order_id": "O00334",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 5810,
+    "customer_tenure_days": 1068,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": true,
+      "signature_captured": true,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0036",
+    "order_id": "O00036",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 410,
+    "customer_tenure_days": 1493,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0051",
+    "order_id": "O00051",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1740,
+    "customer_tenure_days": 1195,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0316",
+    "order_id": "O00316",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 1490,
+    "customer_tenure_days": 221,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": false,
+      "mobile_number_match_registered": true,
+      "prior_successful_upi_txns_with_payee": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0003",
+    "order_id": "O00003",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 3850,
+    "customer_tenure_days": 209,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": true,
+      "signature_captured": false,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0381",
+    "order_id": "O00381",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1030,
+    "customer_tenure_days": 961,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0329",
+    "order_id": "O00329",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 2460,
+    "customer_tenure_days": 25,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0325",
+    "order_id": "O00325",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 5390,
+    "customer_tenure_days": 1159,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": true,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0299",
+    "order_id": "O00299",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 7760,
+    "customer_tenure_days": 776,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "subscription_terms_accepted": false,
+      "cancellation_policy_shown": true,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0304",
+    "order_id": "O00304",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 2000,
+    "customer_tenure_days": 140,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": true,
+      "signature_captured": false,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0175",
+    "order_id": "O00175",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 2010,
+    "customer_tenure_days": 904,
+    "prior_chargeback_count": 2,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0262",
+    "order_id": "O00262",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 4020,
+    "customer_tenure_days": 325,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0361",
+    "order_id": "O00361",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 2110,
+    "customer_tenure_days": 1127,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": true,
+      "signature_captured": false,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0338",
+    "order_id": "O00338",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 630,
+    "customer_tenure_days": 1497,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0134",
+    "order_id": "O00134",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 3190,
+    "customer_tenure_days": 1196,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": false,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0050",
+    "order_id": "O00050",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 3690,
+    "customer_tenure_days": 1197,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0155",
+    "order_id": "O00155",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 1430,
+    "customer_tenure_days": 140,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": false,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0157",
+    "order_id": "O00157",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 2950,
+    "customer_tenure_days": 897,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0163",
+    "order_id": "O00163",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 1850,
+    "customer_tenure_days": 275,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": false,
+      "mobile_number_match_registered": true,
+      "prior_successful_upi_txns_with_payee": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0195",
+    "order_id": "O00195",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 700,
+    "customer_tenure_days": 1436,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": true,
+      "signature_captured": true,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0221",
+    "order_id": "O00221",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 1390,
+    "customer_tenure_days": 255,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": true,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0055",
+    "order_id": "O00055",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 1690,
+    "customer_tenure_days": 224,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "subscription_terms_accepted": true,
+      "cancellation_policy_shown": true,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0201",
+    "order_id": "O00201",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 1840,
+    "customer_tenure_days": 672,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": true,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0370",
+    "order_id": "O00370",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 3500,
+    "customer_tenure_days": 1074,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": true,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0317",
+    "order_id": "O00317",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1740,
+    "customer_tenure_days": 638,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0245",
+    "order_id": "O00245",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 7670,
+    "customer_tenure_days": 149,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": false,
+      "cancellation_policy_shown": true,
+      "cancellation_record_exists": true,
+      "usage_after_alleged_cancellation_date": true,
+      "advance_notice_given": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0057",
+    "order_id": "O00057",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 800,
+    "customer_tenure_days": 864,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": false,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": true,
+      "usage_after_alleged_cancellation_date": true,
+      "advance_notice_given": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0164",
+    "order_id": "O00164",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 3580,
+    "customer_tenure_days": 219,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0141",
+    "order_id": "O00141",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 6020,
+    "customer_tenure_days": 1217,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0070",
+    "order_id": "O00070",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1430,
+    "customer_tenure_days": 217,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0176",
+    "order_id": "O00176",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 660,
+    "customer_tenure_days": 875,
+    "prior_chargeback_count": 2,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0132",
+    "order_id": "O00132",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 3570,
+    "customer_tenure_days": 1110,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0250",
+    "order_id": "O00250",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1860,
+    "customer_tenure_days": 11,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0374",
+    "order_id": "O00374",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 2140,
+    "customer_tenure_days": 1450,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": true,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0103",
+    "order_id": "O00103",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 3440,
+    "customer_tenure_days": 270,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": true,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0271",
+    "order_id": "O00271",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 4100,
+    "customer_tenure_days": 165,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": true,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0392",
+    "order_id": "O00392",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 5220,
+    "customer_tenure_days": 1266,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0220",
+    "order_id": "O00220",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 2020,
+    "customer_tenure_days": 1276,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": false,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0193",
+    "order_id": "O00193",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 4620,
+    "customer_tenure_days": 843,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": true,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": true,
+      "advance_notice_given": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0336",
+    "order_id": "O00336",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1670,
+    "customer_tenure_days": 1102,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0066",
+    "order_id": "O00066",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 7930,
+    "customer_tenure_days": 929,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0384",
+    "order_id": "O00384",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 870,
+    "customer_tenure_days": 978,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0208",
+    "order_id": "O00208",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 2750,
+    "customer_tenure_days": 543,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0183",
+    "order_id": "O00183",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 3240,
+    "customer_tenure_days": 81,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0128",
+    "order_id": "O00128",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 1060,
+    "customer_tenure_days": 1138,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": false,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0340",
+    "order_id": "O00340",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 2230,
+    "customer_tenure_days": 177,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": false,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0228",
+    "order_id": "O00228",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1760,
+    "customer_tenure_days": 356,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": true,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0172",
+    "order_id": "O00172",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 4200,
+    "customer_tenure_days": 90,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": false,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": true,
+      "usage_after_alleged_cancellation_date": true,
+      "advance_notice_given": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0045",
+    "order_id": "O00045",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 1110,
+    "customer_tenure_days": 644,
+    "prior_chargeback_count": 2,
+    "evidence": {
+      "upi_pin_authenticated": true,
+      "device_binding_match": false,
+      "mobile_number_match_registered": true,
+      "prior_successful_upi_txns_with_payee": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0044",
+    "order_id": "O00044",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 2900,
+    "customer_tenure_days": 1161,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": true,
+      "device_binding_match": false,
+      "mobile_number_match_registered": true,
+      "prior_successful_upi_txns_with_payee": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0320",
+    "order_id": "O00320",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 390,
+    "customer_tenure_days": 1212,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0308",
+    "order_id": "O00308",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 5750,
+    "customer_tenure_days": 1272,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": false,
+      "cancellation_policy_shown": true,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0375",
+    "order_id": "O00375",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 820,
+    "customer_tenure_days": 561,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0368",
+    "order_id": "O00368",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 4390,
+    "customer_tenure_days": 443,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0038",
+    "order_id": "O00038",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 5090,
+    "customer_tenure_days": 1310,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0111",
+    "order_id": "O00111",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1870,
+    "customer_tenure_days": 1323,
+    "prior_chargeback_count": 2,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": true,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0096",
+    "order_id": "O00096",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 2540,
+    "customer_tenure_days": 471,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0092",
+    "order_id": "O00092",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1580,
+    "customer_tenure_days": 897,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0076",
+    "order_id": "O00076",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 2300,
+    "customer_tenure_days": 1226,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": false,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0331",
+    "order_id": "O00331",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 10430,
+    "customer_tenure_days": 741,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": true,
+      "three_ds_authenticated": true,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0084",
+    "order_id": "O00084",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 5390,
+    "customer_tenure_days": 262,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": false,
+      "cancellation_policy_shown": true,
+      "cancellation_record_exists": true,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0205",
+    "order_id": "O00205",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 12950,
+    "customer_tenure_days": 1098,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0274",
+    "order_id": "O00274",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1540,
+    "customer_tenure_days": 131,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0232",
+    "order_id": "O00232",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 3490,
+    "customer_tenure_days": 1187,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0043",
+    "order_id": "O00043",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 5000,
+    "customer_tenure_days": 432,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0114",
+    "order_id": "O00114",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 3580,
+    "customer_tenure_days": 389,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": true,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0377",
+    "order_id": "O00377",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 5590,
+    "customer_tenure_days": 1428,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0187",
+    "order_id": "O00187",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 5620,
+    "customer_tenure_days": 832,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": false,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0112",
+    "order_id": "O00112",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 4070,
+    "customer_tenure_days": 824,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": true,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0024",
+    "order_id": "O00024",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 2140,
+    "customer_tenure_days": 740,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": true,
+      "mobile_number_match_registered": true,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0270",
+    "order_id": "O00270",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 3490,
+    "customer_tenure_days": 654,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0074",
+    "order_id": "O00074",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 3370,
+    "customer_tenure_days": 330,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0268",
+    "order_id": "O00268",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 3450,
+    "customer_tenure_days": 158,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0247",
+    "order_id": "O00247",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1590,
+    "customer_tenure_days": 1471,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0159",
+    "order_id": "O00159",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 3310,
+    "customer_tenure_days": 1339,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0194",
+    "order_id": "O00194",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 740,
+    "customer_tenure_days": 508,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": true,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0139",
+    "order_id": "O00139",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 4900,
+    "customer_tenure_days": 481,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0259",
+    "order_id": "O00259",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 890,
+    "customer_tenure_days": 1473,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0161",
+    "order_id": "O00161",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 990,
+    "customer_tenure_days": 613,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": true,
+      "cancellation_policy_shown": true,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": true,
+      "advance_notice_given": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0204",
+    "order_id": "O00204",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 3120,
+    "customer_tenure_days": 1043,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": true,
+      "signature_captured": true,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0200",
+    "order_id": "O00200",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 2460,
+    "customer_tenure_days": 1351,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0285",
+    "order_id": "O00285",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 1490,
+    "customer_tenure_days": 451,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": false,
+      "cancellation_policy_shown": true,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0190",
+    "order_id": "O00190",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 720,
+    "customer_tenure_days": 362,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": true,
+      "cancellation_policy_shown": true,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0330",
+    "order_id": "O00330",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 1920,
+    "customer_tenure_days": 1003,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "subscription_terms_accepted": true,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": true,
+      "advance_notice_given": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0291",
+    "order_id": "O00291",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 3800,
+    "customer_tenure_days": 1274,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "upi_pin_authenticated": true,
+      "device_binding_match": false,
+      "mobile_number_match_registered": true,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0371",
+    "order_id": "O00371",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1290,
+    "customer_tenure_days": 205,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0275",
+    "order_id": "O00275",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1300,
+    "customer_tenure_days": 677,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0087",
+    "order_id": "O00087",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 710,
+    "customer_tenure_days": 866,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": false,
+      "mobile_number_match_registered": true,
+      "prior_successful_upi_txns_with_payee": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0395",
+    "order_id": "O00395",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 3880,
+    "customer_tenure_days": 1205,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": true,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0121",
+    "order_id": "O00121",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 2380,
+    "customer_tenure_days": 484,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": true,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0020",
+    "order_id": "O00020",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 4910,
+    "customer_tenure_days": 1098,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0040",
+    "order_id": "O00040",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1190,
+    "customer_tenure_days": 114,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0168",
+    "order_id": "O00168",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 4100,
+    "customer_tenure_days": 1298,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0286",
+    "order_id": "O00286",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1700,
+    "customer_tenure_days": 558,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0382",
+    "order_id": "O00382",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1770,
+    "customer_tenure_days": 697,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0004",
+    "order_id": "O00004",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1330,
+    "customer_tenure_days": 1116,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": true,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0390",
+    "order_id": "O00390",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 3280,
+    "customer_tenure_days": 508,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": false,
+      "three_ds_authenticated": true,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0135",
+    "order_id": "O00135",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 640,
+    "customer_tenure_days": 1087,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0189",
+    "order_id": "O00189",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 6640,
+    "customer_tenure_days": 484,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": false,
+      "mobile_number_match_registered": true,
+      "prior_successful_upi_txns_with_payee": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0113",
+    "order_id": "O00113",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1980,
+    "customer_tenure_days": 223,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0026",
+    "order_id": "O00026",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 2450,
+    "customer_tenure_days": 1354,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": true,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": true,
+      "ip_billing_geo_match": true,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0380",
+    "order_id": "O00380",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 2170,
+    "customer_tenure_days": 25,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": false,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0152",
+    "order_id": "O00152",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 6600,
+    "customer_tenure_days": 204,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": true,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0372",
+    "order_id": "O00372",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 1020,
+    "customer_tenure_days": 606,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": true,
+      "cancellation_policy_shown": true,
+      "cancellation_record_exists": true,
+      "usage_after_alleged_cancellation_date": true,
+      "advance_notice_given": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0033",
+    "order_id": "O00033",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 3340,
+    "customer_tenure_days": 1437,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0010",
+    "order_id": "O00010",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 2750,
+    "customer_tenure_days": 859,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0127",
+    "order_id": "O00127",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 4330,
+    "customer_tenure_days": 1426,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0281",
+    "order_id": "O00281",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 3480,
+    "customer_tenure_days": 12,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0167",
+    "order_id": "O00167",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 4920,
+    "customer_tenure_days": 702,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": true,
+      "signature_captured": true,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0170",
+    "order_id": "O00170",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1110,
+    "customer_tenure_days": 104,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0273",
+    "order_id": "O00273",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 8080,
+    "customer_tenure_days": 312,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0098",
+    "order_id": "O00098",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 1060,
+    "customer_tenure_days": 1292,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": true,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0181",
+    "order_id": "O00181",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1060,
+    "customer_tenure_days": 303,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0122",
+    "order_id": "O00122",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 3850,
+    "customer_tenure_days": 994,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0191",
+    "order_id": "O00191",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 3290,
+    "customer_tenure_days": 50,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": true,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0276",
+    "order_id": "O00276",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 3440,
+    "customer_tenure_days": 851,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0012",
+    "order_id": "O00012",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 2490,
+    "customer_tenure_days": 13,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": true,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0106",
+    "order_id": "O00106",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 1220,
+    "customer_tenure_days": 833,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": false,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": true,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0199",
+    "order_id": "O00199",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 2220,
+    "customer_tenure_days": 466,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": true,
+      "signature_captured": true,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0323",
+    "order_id": "O00323",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 2460,
+    "customer_tenure_days": 1401,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": false,
+      "cancellation_policy_shown": true,
+      "cancellation_record_exists": true,
+      "usage_after_alleged_cancellation_date": true,
+      "advance_notice_given": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0099",
+    "order_id": "O00099",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 3350,
+    "customer_tenure_days": 138,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": true,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": true,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0147",
+    "order_id": "O00147",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 2870,
+    "customer_tenure_days": 810,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0062",
+    "order_id": "O00062",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 2250,
+    "customer_tenure_days": 234,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": true,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0318",
+    "order_id": "O00318",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 2220,
+    "customer_tenure_days": 768,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0255",
+    "order_id": "O00255",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1240,
+    "customer_tenure_days": 248,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0313",
+    "order_id": "O00313",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 950,
+    "customer_tenure_days": 343,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "subscription_terms_accepted": true,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": true,
+      "advance_notice_given": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0117",
+    "order_id": "O00117",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1180,
+    "customer_tenure_days": 154,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0357",
+    "order_id": "O00357",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 740,
+    "customer_tenure_days": 828,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0263",
+    "order_id": "O00263",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 2570,
+    "customer_tenure_days": 972,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": false,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": true,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0196",
+    "order_id": "O00196",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 2320,
+    "customer_tenure_days": 79,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": false,
+      "three_ds_authenticated": true,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0142",
+    "order_id": "O00142",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 1340,
+    "customer_tenure_days": 167,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": false,
+      "three_ds_authenticated": true,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0086",
+    "order_id": "O00086",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 4830,
+    "customer_tenure_days": 1080,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0396",
+    "order_id": "O00396",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 1830,
+    "customer_tenure_days": 625,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": true,
+      "mobile_number_match_registered": true,
+      "prior_successful_upi_txns_with_payee": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0124",
+    "order_id": "O00124",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 4000,
+    "customer_tenure_days": 337,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": false,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0366",
+    "order_id": "O00366",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 2960,
+    "customer_tenure_days": 1097,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": false,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": true,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0115",
+    "order_id": "O00115",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 3740,
+    "customer_tenure_days": 287,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0394",
+    "order_id": "O00394",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 6180,
+    "customer_tenure_days": 906,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0298",
+    "order_id": "O00298",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 4480,
+    "customer_tenure_days": 691,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0126",
+    "order_id": "O00126",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 1630,
+    "customer_tenure_days": 931,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": true,
+      "signature_captured": false,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0312",
+    "order_id": "O00312",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 2200,
+    "customer_tenure_days": 524,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0149",
+    "order_id": "O00149",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 3020,
+    "customer_tenure_days": 647,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0151",
+    "order_id": "O00151",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 3130,
+    "customer_tenure_days": 1272,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": false,
+      "three_ds_authenticated": true,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0215",
+    "order_id": "O00215",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1510,
+    "customer_tenure_days": 3,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": true,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0365",
+    "order_id": "O00365",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 7910,
+    "customer_tenure_days": 646,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": true,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0290",
+    "order_id": "O00290",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 2730,
+    "customer_tenure_days": 957,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0363",
+    "order_id": "O00363",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 2010,
+    "customer_tenure_days": 627,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0297",
+    "order_id": "O00297",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 2710,
+    "customer_tenure_days": 433,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0311",
+    "order_id": "O00311",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 2350,
+    "customer_tenure_days": 446,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0069",
+    "order_id": "O00069",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 4140,
+    "customer_tenure_days": 365,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": true,
+      "device_binding_match": false,
+      "mobile_number_match_registered": true,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0373",
+    "order_id": "O00373",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 3760,
+    "customer_tenure_days": 367,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": true,
+      "signature_captured": false,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0202",
+    "order_id": "O00202",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 3790,
+    "customer_tenure_days": 142,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": true,
+      "signature_captured": true,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0389",
+    "order_id": "O00389",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 2220,
+    "customer_tenure_days": 622,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": false,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": true,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0088",
+    "order_id": "O00088",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 2080,
+    "customer_tenure_days": 1104,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": false,
+      "mobile_number_match_registered": true,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0107",
+    "order_id": "O00107",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 1730,
+    "customer_tenure_days": 198,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": true,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0219",
+    "order_id": "O00219",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 9560,
+    "customer_tenure_days": 1360,
+    "prior_chargeback_count": 2,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": false,
+      "three_ds_authenticated": true,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0203",
+    "order_id": "O00203",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 2060,
+    "customer_tenure_days": 571,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": true,
+      "mobile_number_match_registered": true,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0198",
+    "order_id": "O00198",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 7280,
+    "customer_tenure_days": 942,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0071",
+    "order_id": "O00071",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 3290,
+    "customer_tenure_days": 611,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": false,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0018",
+    "order_id": "O00018",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 4220,
+    "customer_tenure_days": 704,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": false,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0342",
+    "order_id": "O00342",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 8130,
+    "customer_tenure_days": 951,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0035",
+    "order_id": "O00035",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 1000,
+    "customer_tenure_days": 1300,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": true,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0226",
+    "order_id": "O00226",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 3090,
+    "customer_tenure_days": 861,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": true,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": true,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0192",
+    "order_id": "O00192",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 3520,
+    "customer_tenure_days": 680,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": true,
+      "signature_captured": true,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0131",
+    "order_id": "O00131",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 2660,
+    "customer_tenure_days": 119,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": true,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0154",
+    "order_id": "O00154",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 950,
+    "customer_tenure_days": 271,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0236",
+    "order_id": "O00236",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1520,
+    "customer_tenure_days": 347,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0049",
+    "order_id": "O00049",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 3600,
+    "customer_tenure_days": 1149,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": false,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0197",
+    "order_id": "O00197",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 1950,
+    "customer_tenure_days": 455,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": true,
+      "cancellation_policy_shown": true,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0075",
+    "order_id": "O00075",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 6360,
+    "customer_tenure_days": 1086,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0234",
+    "order_id": "O00234",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 2600,
+    "customer_tenure_days": 905,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0125",
+    "order_id": "O00125",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 2990,
+    "customer_tenure_days": 799,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0242",
+    "order_id": "O00242",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 2560,
+    "customer_tenure_days": 301,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": false,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0248",
+    "order_id": "O00248",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 4030,
+    "customer_tenure_days": 1012,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0213",
+    "order_id": "O00213",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 1560,
+    "customer_tenure_days": 1180,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": false,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": true,
+      "ip_billing_geo_match": true,
+      "prior_undisputed_orders_gte_3": false,
+      "delivered_to_avs_matched_address": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0350",
+    "order_id": "O00350",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1970,
+    "customer_tenure_days": 1058,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0261",
+    "order_id": "O00261",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 1710,
+    "customer_tenure_days": 1122,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": false,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0386",
+    "order_id": "O00386",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 5400,
+    "customer_tenure_days": 151,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0289",
+    "order_id": "O00289",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 2240,
+    "customer_tenure_days": 828,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": true,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0079",
+    "order_id": "O00079",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 1070,
+    "customer_tenure_days": 629,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": true,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0061",
+    "order_id": "O00061",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 1650,
+    "customer_tenure_days": 23,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": true,
+      "cancellation_policy_shown": true,
+      "cancellation_record_exists": false,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0335",
+    "order_id": "O00335",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 4810,
+    "customer_tenure_days": 553,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": true,
+      "device_binding_match": false,
+      "mobile_number_match_registered": true,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0369",
+    "order_id": "O00369",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 3110,
+    "customer_tenure_days": 566,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0367",
+    "order_id": "O00367",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 4780,
+    "customer_tenure_days": 1413,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": false,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0048",
+    "order_id": "O00048",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1650,
+    "customer_tenure_days": 542,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0209",
+    "order_id": "O00209",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 3700,
+    "customer_tenure_days": 1221,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "avs_match": true,
+      "cvv_match": false,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": true,
+      "ip_billing_geo_match": false,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0008",
+    "order_id": "O00008",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 3260,
+    "customer_tenure_days": 1149,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0160",
+    "order_id": "O00160",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1290,
+    "customer_tenure_days": 1367,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0082",
+    "order_id": "O00082",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 4190,
+    "customer_tenure_days": 995,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": true,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": true,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0397",
+    "order_id": "O00397",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 2490,
+    "customer_tenure_days": 123,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0015",
+    "order_id": "O00015",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 1650,
+    "customer_tenure_days": 440,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": true,
+      "tracking_number_present": true,
+      "signature_captured": true,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0063",
+    "order_id": "O00063",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 2210,
+    "customer_tenure_days": 1099,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": true,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0249",
+    "order_id": "O00249",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 4080,
+    "customer_tenure_days": 302,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0346",
+    "order_id": "O00346",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 770,
+    "customer_tenure_days": 434,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": true,
+      "signature_captured": true,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0309",
+    "order_id": "O00309",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 7450,
+    "customer_tenure_days": 258,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0068",
+    "order_id": "O00068",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 2400,
+    "customer_tenure_days": 539,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": false,
+      "mobile_number_match_registered": true,
+      "prior_successful_upi_txns_with_payee": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0344",
+    "order_id": "O00344",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 3090,
+    "customer_tenure_days": 58,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0364",
+    "order_id": "O00364",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 1850,
+    "customer_tenure_days": 247,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": false,
+      "signature_captured": true,
+      "shipping_address_matches_billing": false,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0105",
+    "order_id": "O00105",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1540,
+    "customer_tenure_days": 497,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0027",
+    "order_id": "O00027",
+    "reason_code": "13.1",
+    "dispute_amount_inr": 860,
+    "customer_tenure_days": 592,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "delivery_confirmed": false,
+      "tracking_number_present": true,
+      "signature_captured": false,
+      "shipping_address_matches_billing": true,
+      "digital_access_logs_present": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0326",
+    "order_id": "O00326",
+    "reason_code": "13.2",
+    "dispute_amount_inr": 2570,
+    "customer_tenure_days": 711,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "subscription_terms_accepted": true,
+      "cancellation_policy_shown": false,
+      "cancellation_record_exists": true,
+      "usage_after_alleged_cancellation_date": false,
+      "advance_notice_given": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0256",
+    "order_id": "O00256",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 6950,
+    "customer_tenure_days": 951,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0186",
+    "order_id": "O00186",
+    "reason_code": "10.4",
+    "dispute_amount_inr": 13970,
+    "customer_tenure_days": 1146,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "avs_match": false,
+      "cvv_match": true,
+      "three_ds_authenticated": false,
+      "device_fingerprint_match_prior_orders": false,
+      "ip_billing_geo_match": true,
+      "prior_undisputed_orders_gte_3": true,
+      "delivered_to_avs_matched_address": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0327",
+    "order_id": "O00327",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1920,
+    "customer_tenure_days": 1354,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": true,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0097",
+    "order_id": "O00097",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1980,
+    "customer_tenure_days": 14,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": false,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0028",
+    "order_id": "O00028",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 4580,
+    "customer_tenure_days": 476,
+    "prior_chargeback_count": 1,
+    "evidence": {
+      "upi_pin_authenticated": true,
+      "device_binding_match": true,
+      "mobile_number_match_registered": true,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0212",
+    "order_id": "O00212",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 710,
+    "customer_tenure_days": 1047,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": true,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": true,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0237",
+    "order_id": "O00237",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 1300,
+    "customer_tenure_days": 581,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": true,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": false
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0278",
+    "order_id": "O00278",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 4480,
+    "customer_tenure_days": 1196,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": false,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0001",
+    "order_id": "O00001",
+    "reason_code": "13.6",
+    "dispute_amount_inr": 3020,
+    "customer_tenure_days": 51,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "refund_issued": false,
+      "refund_issued_before_dispute_date": false,
+      "return_received_confirmed": false,
+      "refund_policy_stated_at_checkout": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0264",
+    "order_id": "O00264",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 2560,
+    "customer_tenure_days": 506,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": false,
+      "return_policy_shown_at_checkout": false,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": true
+    },
+    "would_win_if_represented": true
+  },
+  {
+    "dispute_id": "D0351",
+    "order_id": "O00351",
+    "reason_code": "UPI_UNAUTHORIZED",
+    "dispute_amount_inr": 2360,
+    "customer_tenure_days": 175,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "upi_pin_authenticated": false,
+      "device_binding_match": false,
+      "mobile_number_match_registered": false,
+      "prior_successful_upi_txns_with_payee": true
+    },
+    "would_win_if_represented": false
+  },
+  {
+    "dispute_id": "D0060",
+    "order_id": "O00060",
+    "reason_code": "13.3",
+    "dispute_amount_inr": 1510,
+    "customer_tenure_days": 1133,
+    "prior_chargeback_count": 0,
+    "evidence": {
+      "item_description_shown_at_purchase": false,
+      "product_photos_available": true,
+      "tnc_accepted_at_checkout": true,
+      "return_policy_shown_at_checkout": true,
+      "support_communication_exists": true,
+      "no_return_attempted_by_customer": false
+    },
+    "would_win_if_represented": true
+  }
+]

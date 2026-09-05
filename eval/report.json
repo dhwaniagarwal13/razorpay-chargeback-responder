@@ -1,0 +1,20 @@
+{
+  "confusion_matrix": {
+    "tp": 14,
+    "fp": 15,
+    "fn": 24,
+    "tn": 47
+  },
+  "precision": 0.4827586206896552,
+  "recall": 0.3684210526315789,
+  "f1": 0.417910447761194,
+  "auc": 0.6201188455008488,
+  "money": {
+    "concede_everything_inr": 301120.0,
+    "represent_everything_inr": 280130.0,
+    "this_system_inr": 255440.0,
+    "savings_vs_concede_everything_inr": 45680.0,
+    "savings_vs_represent_everything_inr": 24690.0
+  },
+  "n_test": 100
+}

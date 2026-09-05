@@ -4,9 +4,14 @@ __pycache__/
 venv/
 *.egg-info/
 .pytest_cache/
-eval/report.json
-eval/pr_curve.png
+# eval/report.json and eval/pr_curve.png are committed on purpose: they're
+# deterministic (fixed seed) outputs the deployed /metrics and
+# /pr-curve.png endpoints serve directly, and Vercel's build doesn't run
+# eval/evaluate.py. Regenerate locally with `python eval/evaluate.py`
+# after any change to data/generate_data.py, app/scoring.py, or
+# app/decision.py, then re-commit.
 audit_log.jsonl
 *.pkl
 .DS_Store
 .claude-flow/
+.gstack/

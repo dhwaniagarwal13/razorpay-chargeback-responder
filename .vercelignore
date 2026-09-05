@@ -1,0 +1,12 @@
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+.git
+tests
+audit_log.jsonl
+.claude-flow
+.gstack
+*.pkl
+.DS_Store

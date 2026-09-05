@@ -9,14 +9,30 @@ root (gitignored -- generated at runtime, not a schema deliverable).
 Each line captures enough to reproduce and re-check a past decision:
 audit_id, timestamp, dispute_id, the exact input record snapshot, the
 rule_applied string, decision, win_probability, evidence_coverage.
+
+DEPLOYMENT NOTE (Vercel / any read-only-filesystem serverless host):
+Vercel's function filesystem is read-only except /tmp, and /tmp is not
+guaranteed to persist across invocations or across scaled-out instances
+-- it's a best-effort warm-instance cache, not durable storage. When the
+VERCEL env var is set (Vercel sets this automatically at build/run time),
+the log is written to /tmp instead of the project root. Audit replay
+still works within a single warm invocation (which is what one browser
+session driving the demo will normally hit), but is NOT a durable audit
+trail once deployed serverless -- running the app locally (`uvicorn
+app.main:app`) is what actually demonstrates persistent, cross-restart
+replay. This tradeoff is documented in README.md.
 """
 
 import json
+import os
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 
-AUDIT_LOG_PATH = Path(__file__).resolve().parent.parent / "audit_log.jsonl"
+if os.environ.get("VERCEL"):
+    AUDIT_LOG_PATH = Path("/tmp/audit_log.jsonl")
+else:
+    AUDIT_LOG_PATH = Path(__file__).resolve().parent.parent / "audit_log.jsonl"
 
 
 def record_audit(record: dict, decision: dict) -> str:

@@ -1,0 +1,15 @@
+# Lean dependency set for the deployed Vercel function -- only what
+# app/main.py's import graph actually needs at runtime (confirmed via
+# `grep -rn "^import\|^from" app/*.py`: fastapi, sklearn, yaml). No
+# matplotlib/pandas (eval-only), no pytest (tests-only), no uvicorn
+# (Vercel's Python runtime provides the ASGI server itself).
+#
+# @vercel/python picks up a requirements.txt in the same directory as
+# the function's entrypoint (app/main.py) in preference to the project
+# root's requirements.txt, which stays the full local-dev dependency
+# list documented in the root README.
+fastapi==0.141.1
+pydantic==2.13.5
+scikit-learn==1.9.0
+numpy==2.5.2
+PyYAML==6.0.3

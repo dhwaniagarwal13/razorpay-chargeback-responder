@@ -42,12 +42,15 @@ def record_audit(record: dict, decision: dict) -> str:
         "audit_id": audit_id,
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "dispute_id": record["dispute_id"],
+        "reason_code": record["reason_code"],
+        "dispute_amount_inr": record["dispute_amount_inr"],
         "inputs": record,
         "rule_applied": decision["rule_applied"],
         "decision": decision["decision"],
         "win_probability": decision["win_probability"],
         "evidence_coverage": decision["evidence_coverage"],
         "expected_value_inr": decision["expected_value_inr"],
+        "model_version": decision.get("model_version"),
     }
     with open(AUDIT_LOG_PATH, "a", encoding="utf-8") as f:
         f.write(json.dumps(entry) + "\n")
@@ -69,6 +72,24 @@ def get_audit(audit_id: str):
             if entry.get("audit_id") == audit_id:
                 return entry
     return None
+
+
+def list_audit(limit: int = 500) -> list:
+    """Returns audit entries, newest first, capped at `limit`. Backs the
+    Audit Log page's table. Reads the whole file (fine at this project's
+    scale -- a demo audit log, not a production-volume one).
+    """
+    if not AUDIT_LOG_PATH.exists():
+        return []
+    entries = []
+    with open(AUDIT_LOG_PATH, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            entries.append(json.loads(line))
+    entries.reverse()
+    return entries[:limit]
 
 
 def replay(audit_id: str) -> dict:

@@ -129,6 +129,9 @@ def decide(record: dict, model, feature_columns: list) -> dict:
         "decision": decision,
         "win_probability": win_prob,
         "evidence_coverage": coverage,
+        "coverage_factor": coverage_factor,
+        "representment_cost_inr": representment_cost,
+        "min_amount_worth_fighting_inr": min_amount,
         "expected_value_inr": expected_value,
         "rule_applied": rule_applied,
     }

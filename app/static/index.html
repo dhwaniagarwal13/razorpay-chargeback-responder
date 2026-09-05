@@ -4,35 +4,130 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Chargeback Evidence Responder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-  <header>
-    <h1>Chargeback Evidence Responder</h1>
-    <nav>
-      <button id="tab-disputes" class="tab-btn active">Disputes</button>
-      <button id="tab-metrics" class="tab-btn">Metrics</button>
-    </nav>
-  </header>
-
-  <main>
-    <section id="view-disputes" class="view active">
-      <div class="layout">
-        <div id="dispute-list" class="panel list-panel">
-          <h2>Test-set disputes</h2>
-          <ul id="disputes-ul"></ul>
-        </div>
-        <div id="dispute-detail" class="panel detail-panel">
-          <p class="placeholder">Select a dispute on the left to run the decision pipeline.</p>
-        </div>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">CR</div>
+        <div class="brand-name">Chargeback<br/>Evidence Responder</div>
       </div>
-    </section>
+      <nav class="nav">
+        <button class="nav-item active" data-view="overview">Overview</button>
+        <div class="nav-group-label">Operations</div>
+        <button class="nav-item" data-view="disputes">Disputes</button>
+        <div class="nav-group-label">Analytics</div>
+        <button class="nav-item" data-view="analytics">Risk Analytics</button>
+      </nav>
+      <div class="sidebar-footer">
+        <span class="status-dot"></span> Decision engine operational
+      </div>
+    </aside>
 
-    <section id="view-metrics" class="view">
-      <h2>Evaluation metrics (test set)</h2>
-      <div id="metrics-content"><p class="placeholder">Loading metrics...</p></div>
-    </section>
-  </main>
+    <main class="main">
+      <!-- OVERVIEW -->
+      <section id="view-overview" class="view active">
+        <header class="page-header">
+          <h1>Chargeback Operations</h1>
+          <p class="page-subtitle">Make faster, evidence-backed dispute decisions.</p>
+        </header>
+
+        <div id="overview-kpis" class="kpi-grid"></div>
+
+        <div class="panel-row">
+          <div class="panel impact-panel">
+            <h2 class="panel-title">Financial Impact</h2>
+            <p class="panel-desc">Total loss over the 100-case held-out test set, by strategy.</p>
+            <div id="impact-bars" class="impact-bars"></div>
+            <div id="impact-savings" class="impact-savings"></div>
+          </div>
+
+          <div class="panel howitworks-panel">
+            <h2 class="panel-title">How the decision works</h2>
+            <ol class="steps">
+              <li><span class="step-no">01</span><span>Evidence collected</span></li>
+              <li><span class="step-no">02</span><span>Evidence coverage evaluated</span></li>
+              <li><span class="step-no">03</span><span>Win probability calculated</span></li>
+              <li><span class="step-no">04</span><span>Expected value calculated</span></li>
+              <li><span class="step-no">05</span><span>REPRESENT / CONCEDE</span></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header-row">
+            <h2 class="panel-title">Needs Your Attention</h2>
+            <button class="link-btn" data-goto="disputes">View all disputes &rarr;</button>
+          </div>
+          <div id="attention-list" class="attention-list"></div>
+        </div>
+      </section>
+
+      <!-- DISPUTES -->
+      <section id="view-disputes" class="view">
+        <header class="page-header">
+          <h1>Disputes</h1>
+          <p class="page-subtitle">Test-set disputes, pre-scored by the decision engine.</p>
+        </header>
+
+        <div class="queue-toolbar">
+          <input id="dispute-search" class="search-input" type="text" placeholder="Search by dispute ID or reason code..." />
+          <div class="filter-pills" id="filter-pills">
+            <button class="pill active" data-filter="all">All</button>
+            <button class="pill" data-filter="represent">Represent</button>
+            <button class="pill" data-filter="concede">Concede</button>
+            <button class="pill" data-filter="needs_review">Needs Review</button>
+            <button class="pill" data-filter="resolved">Resolved</button>
+          </div>
+          <select id="sort-select" class="sort-select">
+            <option value="amount_desc">Highest amount</option>
+            <option value="amount_asc">Lowest amount</option>
+            <option value="ev_desc">Highest expected value</option>
+            <option value="ev_asc">Lowest expected value</option>
+          </select>
+        </div>
+
+        <div class="disputes-layout">
+          <div class="panel table-panel">
+            <table class="data-table" id="disputes-table">
+              <colgroup>
+                <col class="col-id" /><col class="col-reason" /><col class="col-amount" />
+                <col class="col-evidence" /><col class="col-winprob" /><col class="col-ev" />
+                <col class="col-rec" /><col class="col-status" />
+              </colgroup>
+              <thead>
+                <tr>
+                  <th>Dispute</th><th>Reason</th><th>Amount</th><th>Evidence</th>
+                  <th>Win Prob</th><th>Expected Value</th><th>Recommendation</th><th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="disputes-tbody"></tbody>
+            </table>
+            <p id="disputes-empty" class="empty-state" hidden>No disputes match these filters.</p>
+          </div>
+
+          <div id="dispute-detail" class="panel detail-panel">
+            <p class="placeholder">Select a dispute on the left to open the decision workspace.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- RISK ANALYTICS -->
+      <section id="view-analytics" class="view">
+        <header class="page-header">
+          <h1>Risk Analytics</h1>
+          <p class="page-subtitle">Evaluation on the held-out 100-case test set.</p>
+        </header>
+        <div id="analytics-content"><p class="placeholder">Loading metrics...</p></div>
+      </section>
+    </main>
+  </div>
+
+  <div id="toast-container" class="toast-container"></div>
 
   <script src="/app.js"></script>
 </body>

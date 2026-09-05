@@ -66,6 +66,27 @@ LETTER_SENTENCES = {
 }
 
 
+def sentence_for(reason_code: str, field_name: str, record: dict) -> str:
+    """The exact grounded sentence for one evidence field, formatted with
+    this record's own identifiers -- used by the UI's evidence-checklist
+    click interaction. Returns the real sentence regardless of whether the
+    field is actually True on the record (so an analyst can see what
+    WOULD render if it were present); the letter body itself still only
+    ever includes sentences for fields that are True (see
+    TemplateGenerator._generate_represent_letter below) -- this function
+    never fabricates a field value, it just formats known template text.
+    """
+    fmt_kwargs = {
+        "dispute_id": record.get("dispute_id"),
+        "order_id": record.get("order_id"),
+        "dispute_amount_inr": record.get("dispute_amount_inr"),
+    }
+    for f, template in LETTER_SENTENCES.get(reason_code, []):
+        if f == field_name:
+            return template.format(**fmt_kwargs)
+    return ""
+
+
 class LetterGenerator(ABC):
     @abstractmethod
     def generate(self, record: dict, decision: dict, evidence: dict) -> str:

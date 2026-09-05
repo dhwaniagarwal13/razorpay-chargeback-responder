@@ -10,7 +10,7 @@ This system makes that decision from evidence, bounded by an explicit rule, with
 
 ## Live demo
 
-**[TODO: Vercel URL]** — deployed serverless. One caveat vs. running locally: the audit trail (`audit_log.jsonl`) writes to `/tmp` on Vercel, which is a best-effort warm-instance cache, not durable storage — audit replay works within a session but isn't guaranteed to persist across cold starts the way it does when you run the app locally (`uvicorn app.main:app`). See `app/audit.py`'s docstring for the full explanation. Everything else (decision engine, evidence checklist, letters/memos, metrics) behaves identically to local.
+**https://razorpay-chargeback-responder.vercel.app/** — deployed serverless. One caveat vs. running locally: the audit trail (`audit_log.jsonl`) writes to `/tmp` on Vercel, which is a best-effort warm-instance cache, not durable storage — audit replay works within a session but isn't guaranteed to persist across cold starts the way it does when you run the app locally (`uvicorn app.main:app`). See `app/audit.py`'s docstring for the full explanation. Everything else (decision engine, evidence checklist, letters/memos, metrics) behaves identically to local.
 
 ## What it does
 
